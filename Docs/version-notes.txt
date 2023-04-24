@@ -1,0 +1,34 @@
+x - solved
+
+V0.3 HW (not visible in this repo, made in EasyEDA earlier)
+
+x move esp to the edge of the board
+x cutout under pcb antenna
+x hide U3 text under ESP module
+x "JLCJLCJLC" fabrication text under ESP module
+x move XT30 connector to the edge of the board
+x round edges
+x opamp input for PPM
+x RGB status led
+x replaceable fuse
+x canbus transciever
+
+
+
+V0.4 HW (first KiCad vesion)
+
+voltage supervisor for ESP32
+add an additional led connector for a third light
+replace linear 3V3 regulator with a switched mode one
+move rgb led pins to non pwm-on-boot gpio (currently shines dimly while not booted yet)
+voltage and current measurement
+overpolarity led + mosfet
+push pull mosfets for driving led strips
+3-pin push button connector + button led P mosfet driver
+
+
+
+V0.FUTURE (might do, not sure)
+
+accelerometer for alarm function
+buzzer driver
